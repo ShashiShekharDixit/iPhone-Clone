@@ -1,0 +1,21 @@
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('/hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+  }
+  
+  .hero button {
+    padding: 10px 20px;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero button:hover {
+    background-color: #005bb5;
+  }
+  

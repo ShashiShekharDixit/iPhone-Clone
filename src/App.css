@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.header {
+  background-color: #007aff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #007aff;
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.home {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.app-icon {
+  text-align: center;
+}
+
+.app-icon img {
+  width: 50px; /* Adjust the size as needed */
+}
