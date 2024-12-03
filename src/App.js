@@ -1,17 +1,25 @@
-import React from 'react';
-import Header from './components/Header/Header.component';
-import Home from './components/Hero/Hero.component';
-import Footer from './components/Footer/Footer.component';
-import './index.css';
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Highlights from './components/Highlights';
+import Model from './components/Model';
+import Features from './components/Features';
+import HowItWorks from './components/HowItWorks';
+import Footer from './components/Footer';
+
+import * as Sentry from '@sentry/react';
 
 const App = () => {
   return (
-    <div className="app">
-      <Header />
-      <Home />
+    <main className="bg-black">
+      <Navbar />
+      <Hero />
+      <Highlights />
+      <Model />
+      <Features />
+      <HowItWorks />
       <Footer />
-    </div>
-  );
-};
+    </main>
+  )
+}
 
-export default App;
+export default Sentry.withProfiler(App);
